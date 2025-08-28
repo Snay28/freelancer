@@ -9,15 +9,15 @@
 /* Parametros de la fuente */
 
 .krub-regular {
-  font-family: "Krub", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .krub-bold {
-  font-family: "Krub", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Krub", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
@@ -26,18 +26,20 @@
 html {
     font-size: 62.5%;
 }
+
 body {
     font-size: 1.5rem;
-    font-family: "krub", sans-serif;
+    font-family: "Krub", sans-serif;
 }
 
 /* End Receteo Tamaño rem */
 
-.titulo { 
+.titulo {
     text-align: center;
     font-size: 3.8rem;
     font-family: "Krub", sans-serif;
 }
+
 .titulo span {
     font-size: 2rem;
 }
