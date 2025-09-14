@@ -29,6 +29,7 @@ html {
     box-sizing: border-box;
     min-height: 100%;
     /* para pantalla completa y ajusta si contenido pasa la pantalla */
+    scroll-snap-type: y mandatory; /* Para scrollear entre los diferentes modulos de arriba hacia abajo */
 }
 
 *,
@@ -41,6 +42,17 @@ body {
     font-size: 1.5rem;
     font-family: "Krub", sans-serif;
     background-image: linear-gradient(to top, var(--azul-claro) 0%, var(--blanco) 100%);
+}
+
+/* Para ir paso a paso por modulo cuando esta en tamaño compacto */
+
+@media (max-width: 768px) {
+    .servicios,
+    .titulo,
+    .formulario {
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
 }
 
 /* Stylos Globales */
