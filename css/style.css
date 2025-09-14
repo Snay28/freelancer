@@ -47,7 +47,7 @@ body {
 /* Para ir paso a paso por modulo cuando esta en tamaño compacto */
 
 @media (max-width: 768px) {
-    .servicios,
+    .servicios-contenedor, /* Clase creada para que el scroll sea mas correcto y no tape el h2 */
     .titulo,
     .formulario {
         scroll-snap-align: center;
